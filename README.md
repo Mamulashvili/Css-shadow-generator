@@ -33,3 +33,9 @@ v-box-shadow:[shadowColor]="{
  v-box-color="boxColor"
  v-box-border-radius="borderRadius"
 ```
+
+## Reusable components
+- BaseColorInput
+- BaseRangeInput
+- BaseSwitch
+- BoxShadow (main screen)
