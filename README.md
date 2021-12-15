@@ -14,6 +14,22 @@ npm run serve
 ```
 npm run build
 ```
+## Custom v-directives
+- boxShadow
+- boxColor
+- boxBorderRadius
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+```js
+v-box-shadow:[shadowColor]="{
+  shadowDirection,
+  horizontalLength,
+  verticalLength,
+  blurRadius,
+  spreadRadius,
+}"
+```
+
+``` js
+ v-box-color="boxColor"
+ v-box-border-radius="borderRadius"
+```
