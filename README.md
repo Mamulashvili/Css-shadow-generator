@@ -1,4 +1,4 @@
-# box-shadow-generator
+# CSS shadow generator
 
 ## Project setup
 ```
